@@ -32,6 +32,7 @@ def timee():
         speak('Hi iam your assistant good evening')
 timee()
 dictapp={"commandprompt":"cmd","spotify":"spotify","paint":"paint","excel":"excel","google chrome":"chrome"}
+print("tell me")
 def openapp(query):
     if "chrome" in query:
         subprocess.call("C://Program Files (x86)//Google//Chrome//Application//chrome.exe")
